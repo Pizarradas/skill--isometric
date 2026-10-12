@@ -1,0 +1,148 @@
+{
+  "fuente": "ejemplos/blender/escena.blend",
+  "ancho": 1024,
+  "alto": 1024,
+  "oclusion": "ninguna",
+  "por": "objeto",
+  "ejes_px": {
+    "x": [
+      77.5757,
+      44.7883
+    ],
+    "y": [
+      -77.5758,
+      44.7883
+    ],
+    "z": [
+      0.0,
+      -89.5768
+    ]
+  },
+  "piezas": [
+    {
+      "id": "losa",
+      "archivo": "capas/losa.png",
+      "orden": 0,
+      "sombra": null,
+      "x": 39,
+      "y": 305,
+      "w": 947,
+      "h": 589,
+      "objetos": [
+        "losa"
+      ],
+      "bbox_mundo": {
+        "min": [
+          -3.0,
+          -3.0,
+          0.0
+        ],
+        "max": [
+          3.0,
+          3.0,
+          0.4
+        ]
+      }
+    },
+    {
+      "id": "torre",
+      "archivo": "capas/torre.png",
+      "orden": 1,
+      "sombra": null,
+      "x": 388,
+      "y": 130,
+      "w": 249,
+      "h": 419,
+      "objetos": [
+        "torre"
+      ],
+      "bbox_mundo": {
+        "min": [
+          -1.95,
+          -1.95,
+          0.4
+        ],
+        "max": [
+          -0.45,
+          -0.45,
+          3.4
+        ]
+      }
+    },
+    {
+      "id": "caja",
+      "archivo": "capas/caja.png",
+      "orden": 2,
+      "sombra": null,
+      "x": 613,
+      "y": 421,
+      "w": 202,
+      "h": 213,
+      "objetos": [
+        "caja"
+      ],
+      "bbox_mundo": {
+        "min": [
+          0.6,
+          -2.0,
+          0.4
+        ],
+        "max": [
+          1.8,
+          -0.8,
+          1.4
+        ]
+      }
+    },
+    {
+      "id": "ventilador",
+      "archivo": "capas/ventilador.png",
+      "orden": 3,
+      "sombra": null,
+      "x": 408,
+      "y": 134,
+      "w": 208,
+      "h": 132,
+      "objetos": [
+        "ventilador"
+      ],
+      "bbox_mundo": {
+        "min": [
+          -1.82,
+          -1.82,
+          3.42
+        ],
+        "max": [
+          -0.58,
+          -0.58,
+          3.48
+        ]
+      }
+    },
+    {
+      "id": "tanque",
+      "archivo": "capas/tanque.png",
+      "orden": 4,
+      "sombra": null,
+      "x": 380,
+      "y": 466,
+      "w": 264,
+      "h": 303,
+      "objetos": [
+        "tanque"
+      ],
+      "bbox_mundo": {
+        "min": [
+          0.4,
+          0.4,
+          0.4
+        ],
+        "max": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      }
+    }
+  ]
+}

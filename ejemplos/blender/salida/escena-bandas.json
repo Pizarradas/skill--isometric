@@ -1,0 +1,140 @@
+{
+  "fuente": "ejemplos/blender/escena.blend",
+  "modo": "iso",
+  "unidad": 40.0,
+  "luz": "left",
+  "viewBox": "-231.85 -234.23 463.69 378.23",
+  "ejes_px": {
+    "x": [
+      34.641,
+      20.0
+    ],
+    "y": [
+      -34.641,
+      20.0
+    ],
+    "z": [
+      0.0,
+      -40.0
+    ]
+  },
+  "duracion_s": 1.95833,
+  "cruces": [],
+  "piezas": [
+    {
+      "id": "losa",
+      "objeto": "losa",
+      "orden": 0,
+      "padre": null,
+      "color_base": "#c8d6e7",
+      "token": null,
+      "bbox_mundo": {
+        "min": [
+          -3.0,
+          -3.0,
+          0.0
+        ],
+        "max": [
+          3.0,
+          3.0,
+          0.4
+        ]
+      },
+      "caras": 3,
+      "animada": null,
+      "fotogramas": null
+    },
+    {
+      "id": "torre",
+      "objeto": "torre",
+      "orden": 1,
+      "padre": null,
+      "color_base": "#598eef",
+      "token": null,
+      "bbox_mundo": {
+        "min": [
+          -1.95,
+          -1.95,
+          0.4
+        ],
+        "max": [
+          -0.45,
+          -0.45,
+          3.4
+        ]
+      },
+      "caras": 46,
+      "animada": null,
+      "fotogramas": null
+    },
+    {
+      "id": "caja",
+      "objeto": "caja",
+      "orden": 2,
+      "padre": null,
+      "color_base": "#55c597",
+      "token": null,
+      "bbox_mundo": {
+        "min": [
+          0.6,
+          -2.0,
+          0.4
+        ],
+        "max": [
+          1.8,
+          -0.8,
+          1.4
+        ]
+      },
+      "caras": 7,
+      "animada": "traslacion",
+      "fotogramas": null
+    },
+    {
+      "id": "ventilador",
+      "objeto": "ventilador",
+      "orden": 3,
+      "padre": null,
+      "color_base": "#272730",
+      "token": null,
+      "bbox_mundo": {
+        "min": [
+          -1.82,
+          -1.82,
+          3.42
+        ],
+        "max": [
+          -0.58,
+          -0.58,
+          3.48
+        ]
+      },
+      "caras": 6,
+      "animada": "flipbook",
+      "fotogramas": 12
+    },
+    {
+      "id": "tanque",
+      "objeto": "tanque",
+      "orden": 4,
+      "padre": null,
+      "color_base": "#f2a630",
+      "token": null,
+      "bbox_mundo": {
+        "min": [
+          0.4,
+          0.4,
+          0.4
+        ],
+        "max": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "caras": 17,
+      "animada": "traslacion",
+      "fotogramas": null
+    }
+  ]
+}
